@@ -1,0 +1,7 @@
+span.list-icon-1{background:transparent url(../images/arrow-white-sprite.gif) no-repeat scroll -67px -1004px;padding-left:11px;}
+.accordion .accordion-body ul li span.list-icon-2{background:transparent url(../images/arrow-white-sprite.gif) no-repeat -172px -764px;padding:0 0 0 30px;display:block;}
+.mod .promo span.image-right img,span.image-right img{float:right;margin:10px 6px 0 10px;}
+span.footnote{font-size:85%;}
+th span.coloured-background,h2 span.coloured-background{background-color:#E8F5F9;display:block;padding:3px 5px 4px;margin:.8em 0 0;}
+h3 span.divider,p span.divider{border-top:1px dotted #ccc;padding-top:7px;margin-top:2px;display:block;}
+p span.small{font-size:91%;}

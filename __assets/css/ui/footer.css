@@ -1,0 +1,80 @@
+.clearfix:after,
+.global-footer:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.global-footer {
+  border-bottom: 2px solid #b2b2b2;
+  clear: both;
+  font-weight: 300;
+  padding: 64px 0;
+}
+
+.global-footer {
+  border-bottom: 0;
+  font-family: verdana, arial, sans-serif;
+  font-size: 1.1em;
+  margin-bottom: 0;
+}
+.global-footer .navigation {
+  float: left;
+  width: 25%;
+}
+.global-footer .col-16 {
+  margin-bottom: 0;
+}
+.global-footer .nav-wrap {
+  margin-bottom: 64px!important;
+  overflow: hidden;
+}
+.global-footer ul {
+  margin: 0;
+  padding: 0 5px;
+}
+.global-footer li {
+  list-style: none;
+  margin-bottom: 20px;
+}
+.global-footer li a {
+  font-size: 1em;
+  line-height: 1.2;
+  text-decoration: none;
+}
+.global-footer li a:link, .global-footer li a:visited {
+  color: #007eb6;
+}
+.global-footer li a:hover, .global-footer li a:focus {
+  background-color: transparent;
+  text-decoration: underline;
+}
+.global-footer li:last-child {
+  margin-bottom: 0;
+}
+.global-footer .disclaimer {
+  clear: both;
+  color: #8c8c8c;
+  font-size: 1em;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0 0 32px;
+}
+.global-footer .sponsor-ads {
+  text-align: center;
+}
+.global-footer .sponsor-ads a {
+  display: inline-block;
+  line-height: 0;
+  margin: 0 17px 32px;
+  vertical-align: middle;
+}
+.global-footer .sponsor-ads img {
+  border: 0;
+}
+.global-footer .footer-note {
+  color: #666;
+  font-size: 1em;
+  margin: 0;
+  text-align: center;
+}

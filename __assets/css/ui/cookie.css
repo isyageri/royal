@@ -1,0 +1,77 @@
+.clearfix:after,
+.cookie-panel:after,
+.ie8-panel:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.cookie-panel {
+  background: #efefef;
+  color: #666666;
+  float: left;
+  max-height: 0;
+  overflow: hidden;
+  position: relative;
+  transition: height, 0.5s linear;
+  width: 100%;
+}
+.cookie-panel .cookie-panel-content {
+  margin: 0 auto;
+  padding: 16px;
+}
+.cookie-panel .cookie-close {
+  background: url("/images/icon-close.png") no-repeat 50% 50%;
+  display: block;
+  height: 23px;
+  overflow: hidden;
+  position: absolute;
+  right: 1.5%;
+  text-indent: -9999px;
+  top: 15px;
+  width: 23px;
+}
+.cookie-panel .cookie-heading {
+  color: #00395d;
+  font-size: 1.2em;
+  font-weight: normal;
+  margin-bottom: 16px;
+}
+.cookie-panel p {
+  font-size: 1em;
+  line-height: 1.3;
+}
+.cookie-panel p a {
+  text-decoration: underline;
+}
+.cookie-panel.open {
+  max-height: 1000px;
+}
+
+.ie8-panel {
+  color: #666666;
+  float: left;
+  width: 100%;
+  padding: 16px 0;
+  background: #e5f2f8;
+  overflow: hidden;
+  position: relative;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  display: none;
+}
+.ie8-panel .ie8-panel-content {
+  padding: 0 16px;
+}
+.ie8-panel h2, .ie8-panel h3, .ie8-panel h4 {
+  color: #00395d;
+  font-size: 1.2em;
+  font-weight: normal;
+}
+.ie8-panel p {
+  font-size: 1em;
+  line-height: 1.3;
+}
+.ie8-panel p a {
+  text-decoration: underline;
+}

@@ -1,0 +1,130 @@
+*{padding:0;margin:0;}
+#TB_window{font:12px Arial,Helvetica,sans-serif;}
+#TB_secondLine{color:#666;font:10px Arial,Helvetica,sans-serif;}
+/*#TB_window a:link,#TB_window a:focus,#TB_window a:active,#TB_window a:visited{color:#666;}*/
+#TB_window a:hover{color:#000;}
+#TB_overlay{height:100%;left:0;position:fixed;top:0;width:100%;z-index:110000;}
+.TB_overlayMacFFBGHack{background:url(../images/macFFBgHack.png) repeat;}
+.TB_overlayBG{background-color:#000;filter:alpha(opacity=60);opacity:.6;-moz-opacity:.6;}
+* html #TB_overlay{height:expression(document.body.scrollHeight>document.body.offsetHeight ? document.body.scrollHeight:document.body.offsetHeight+'px');position:absolute;}
+#TB_window{background:#FFF;border:4px solid #525252;color:#000;display:none;left:0;position:absolute;text-align:left;top:0;z-index:120000;}
+* html #TB_window,* html #TB_load{margin-top:expression(0 - parseInt(this.offsetHeight / 2)+(TBWindowMargin = document.documentElement && document.documentElement.scrollTop || document.body.scrollTop)+'px');position:absolute;}
+#TB_window img#TB_Image{border-bottom:1px solid #ccc;border-left:1px solid #666;border-right:1px solid #ccc;border-top:1px solid #666;display:block;margin:15px 0 0 15px;}
+#TB_caption{float:left;height:25px;padding:7px 30px 10px 25px;}
+#TB_closeWindow{float:right;height:25px;padding:11px 25px 10px 0;}
+#TB_closeAjaxWindow{float:right;margin:5px 5px 1px;text-align:right;}
+#TB_ajaxWindowTitle{float:left;margin:-3px 0 1px;padding:0 0 5px 10px;}
+#TB_title{background-color:#E8E8E8;height:27px;right:0;}
+#TB_ajaxContent{position:relative;clear:both;overflow-y:auto;overflow-x:hidden;padding:2px 15px 15px 15px;text-align:left;font: 13px/1.231 verdana,arial,helvetica,clean,sans-serif} /* BCLYR-1539 Font-size lightbox Ajax content */
+#TB_ajaxContent.TB_modal{padding:15px;}
+#TB_load{display:none;height:13px;left:50%;margin:-6px 0 0 -104px;position:fixed;top:50%;width:208px;z-index:103;}
+#TB_HideSelect{background-color:#fff;border:none;filter:alpha(opacity=0);height:100%;left:0;opacity:0;position:fixed;top:0;width:100%;z-index:99;-moz-opacity:0;}
+* html #TB_HideSelect{height:expression(document.body.scrollHeight>document.body.offsetHeight ? document.body.scrollHeight:document.body.offsetHeight+'px');position:absolute;}
+#TB_iframeContent{_margin-bottom:1px;border:none;clear:both;margin-bottom:-1px;margin-top:1px;}
+#TB_window .tr,#TB_window .br,#TB_window .tr div,#TB_window .br div{background:url(../images/box.png) no-repeat left top;}
+#TB_window .tr,#TB_window .br{height:10px;margin:-10px 10px 0 0;position:relative;}
+#TB_window .br{background-position:left bottom;margin:0 10px -10px 0;}
+#TB_window .tr div,#TB_window .br div{background-position:right top;height:10px;position:absolute;right:-10px;width:10px;}
+#TB_window .br div{background-position:right bottom;bottom:0;height:10px;}
+#TB_title{background-color:#FFF;height:27px;}
+#TB_closeWindowButton{background:url(../images/button-close.png) no-repeat 0 0;display:block;font-weight:bold;padding:3px 40px 4px 10px;}
+* html #TB_closeWindowButton{padding-bottom:3px;}
+#TB_window{border:none;}
+#TB_window #TB_closeWindowButton,#TB_window #TB_closeWindowButton:hover{color:#00A4E8;font-size: 12px;}
+#TB_window #TB_closeWindowButton:hover{background-position:left -48px;color:#036;}
+#TB_window p.info{color:#666;padding:0 16px;}
+#TB_window table{padding-bottom:5px;}
+#TB_ajaxWindowTitle{font-size:2.2em;padding:0 0 5px 18px;}
+#TB_ajaxWindowTitle,#TB_window p,#TB_window th,#TB_window td{color:#036;}
+#TB_ajaxContent{width:auto!important;color:#036;}
+#TB_ajaxContent h3{font-size:189%;color:#036;font-weight:normal;padding-left:10px;margin-top:2px;padding-bottom:.5em;width:440px;}
+#TB_ajaxContent p{padding:10px 0 10px 0;}
+#TB_ajaxContent .section h1{float:none;margin:0 0 0 5px;padding:2px 0 4px 6px;}
+#TB_ajaxContent .content{width: 100%;}
+#TB_ajaxContent table{border-collapse:collapse;margin-bottom:.5em;margin-top:10px;width:auto;}
+#TB_ajaxContent table tr.highlight{background-color:#edf6f8;}
+#TB_ajaxContent th,#TB_ajaxContent td{font-size:100%;}
+#TB_ajaxContent tr{position:static;}
+#TB_ajaxContent th{padding:10px 6px 10px 16px;vertical-align:top;}
+#TB_ajaxContent td{padding:10px 10px 10px 6px;}
+#TB_ajaxContent td p{padding-right:0;}
+#TB_ajaxContent ul, #TB_ajaxContent ol {font-size:93%; margin-left:32px;}
+.lightboxcontent{
+	margin: 10px 0 0 27px;
+	width: 893px;
+}
+.lightboxcontent .mod.borderless .m-cont{
+	padding:0;
+}
+.lightboxcontent .cont-fl{
+	width:100%;
+}
+.page .body .lightboxcontent .content{
+	width: 100%;
+	margin:0;
+}
+.page .body .lightboxcontent .content p{
+	margin:10px 0 10px 0;
+}
+
+.page .body .lightboxcontent .content .section h1{
+	float:none;
+	padding:0;
+	margin:0;
+}
+
+#TB_ajaxContent .cont-fl,
+#TB_ajaxContent .cont-lg{
+	width:730px;
+}
+
+#TB_ajaxContent .mod .m-cont {
+	padding-right: 10px;
+}
+
+/* lIGHTBOX Button styling */
+#TB_window .btn a:hover .tl {background-position:0 -10px;}
+#TB_window .btn a:hover .tr {background-position:-27px -10px;}
+#TB_window .btn a:hover .bl {background-position:-9px -10px;}
+#TB_window .btn a:hover .br {background-position:-18px -10px;}
+#TB_window a:hover.functional {background:#036;}
+#TB_window a:hover.navigational {
+	background:#fff url('../images/navigational-grad-active.gif') 0 0 repeat-x;
+	color:#036;
+	border-bottom:1px solid #036;
+	border-left:1px solid #036;
+	border-right:1px solid #036;
+}
+
+#TB_window .btn .tr, #TB_window .btn .br{margin: 0 -9px 0;}
+
+#TB_window .btn .tr{background-position: -27px 0;top: 0;right: 0;}
+
+#TB_window .directional em {
+	background-image: url(../images/directional-btn-corners.gif);
+	background-repeat: no-repeat;
+}
+
+#TB_window .btn .br {background-position: -18px 0;bottom: 0;right: 0;}
+
+#TB_window .btn em{position: absolute;} 
+
+#TB_window .btn a.directional:hover{color:#fff;}
+
+#TB_window .btn .navigational .br{top:10px;}
+
+#TB_window .btn .navigational .br, #TB_window .btn .navigational .tr {background-image: url('../images/navigational-btn-corners.gif')}
+
+/* Applies to Remortgage Apply Form*/
+#applyMortgage {display:none}
+#applyLoyaltyMortgage {display:none}
+.btnApplyMortgage {
+	display: inline;
+	  float: right;
+}
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+.clearfix:after,
+.bread-crumbs ul:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.bread-crumbs {
+  font-size: 1em;
+}
+.bread-crumbs h1 {
+  font-size: 1em;
+}
+.bread-crumbs ul {
+  list-style: none;
+  padding-bottom: 16px;
+  padding-left: 10px;
+}
+.bread-crumbs li {
+  float: left;
+  margin-right: 7px;
+  padding: 0;
+}

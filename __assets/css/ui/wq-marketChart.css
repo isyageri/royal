@@ -1,0 +1,346 @@
+div#latestMarketData p {
+	font-size: 10px;
+	margin: 0em;
+}
+
+div.marketChart {
+	min-height: 300px;
+}
+
+div.marketChart 
+{
+    font-family: Arial;
+    font-size: 12px;    
+    width: 220px;
+}
+    
+div.chart-container 
+{
+    width: 218px; 
+    height: 150px
+}
+    
+div.marketChart ul.tab 
+{
+    list-style: none!important;
+    border-bottom: 1px solid #D3D3D3;
+    padding-left:6px;
+    margin: 0px 0px 5px!important;
+    height: 24px;
+}
+    
+div.marketChart ul.tab li 
+{
+        
+    float: left;
+    line-height: 18px;
+    margin-bottom: -1px!important;
+}
+    
+div.marketChart ul.tab li a 
+{
+    border-top: 1px solid #DDD;
+    border-right: 1px solid #DDD;
+    margin-top:4px;
+        
+    color: #7C7C7C;
+    display: block;
+    font-size: 10px;
+    line-height: 10px;
+    margin-right: 0px;
+    padding: 4px 6px 4px 6px;
+    text-decoration:none;
+}    
+    
+div.marketChart ul.tab li:first-child a
+{
+    -webkit-border-top-left-radius: 4px;
+    -moz-border-top-left-radius: 4px;
+    border-top-left-radius: 4px;
+    border-left:1px solid #DDD;
+}
+    
+div.marketChart ul.tab li:last-child a
+{
+    -webkit-border-top-right-radius: 4px;
+    -moz-border-top-right-radius: 4px;
+    border-top-right-radius: 4px;
+    border-right:1px solid #DDD;
+}
+    
+div.marketChart ul.tab .active a, 
+div.marketChart ul.tab .active a:hover 
+{
+    -webkit-border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0;
+    margin-top:0px;
+    color: #D47D26;
+    cursor: default;
+    background-color:#FFF;
+    border: 1px solid #DDD;
+    border-bottom-color: transparent;
+    font-size: 11px;
+    line-height: 14px;
+}
+
+   
+    
+div.marketChart ul.accordion
+{
+    border: 1px solid #D3D3D3;
+    list-style-type: none!important;
+    padding-left:0px;
+    margin-left:0px!important;
+}
+    
+div.marketChart ul.accordion li
+{
+    padding-bottom:1px;
+    border-bottom: 1px solid #DDD;
+	margin-bottom:0px!important;
+}
+
+#midCol div.marketChart ul li {
+	margin-bottom:0px!important;
+}
+    
+div.marketChart ul.accordion li:last-child
+{
+    border-bottom-width: 0px;
+}
+    
+div.marketChart ul.accordion li a
+{
+    display:block;
+    text-decoration: none;
+    color: Black;
+    padding-left: 8px;
+    padding-right: 8px;
+    line-height:23px;
+    font-weight: bold;
+    height: 23px;
+    background-color: #EEE;
+    background-image: -webkit-gradient(linear, left top, left bottom, from( # /*{a-bar-background-start}*/), to( #DDD /*{a-bar-background-end}*/));
+    background-image: -webkit-linear-gradient( #FFF /*{a-bar-background-start}*/, #DDD /*{a-bar-background-end}*/);
+    background-image: -moz-linear-gradient( #FFF /*{a-bar-background-start}*/, #DDD /*{a-bar-background-end}*/);
+    background-image: -ms-linear-gradient( #FFF /*{a-bar-background-start}*/, #DDD /*{a-bar-background-end}*/);
+    background-image: -o-linear-gradient( #FFF /*{a-bar-background-start}*/, #DDD /*{a-bar-background-end}*/);
+    background-image: linear-gradient( #FFF /*{a-bar-background-start}*/, #DDD /*{a-bar-background-end}*/);
+    position:relative;
+}
+    
+div.marketChart ul.accordion li a span.data
+{
+    position:absolute;
+    right:8px;
+    top:0px;
+}
+    
+div.marketChart ul.accordion li a span.value
+{
+    margin-right:5px;
+}
+    
+div.marketChart .up
+{
+    background: transparent url(../../images/delta.png) no-repeat right -36px;
+    color: Green;
+    padding-right: 10px;
+}
+    
+div.marketChart .down
+{
+    background: transparent url(../../images/delta.png) no-repeat right -4px;
+    color: Red;
+    padding-right: 10px;
+}
+
+div.marketChart .unchanged
+{
+    background: transparent url(../../images/delta.png) no-repeat right -22px;
+    color: Blue;
+    padding-right: 10px;
+}
+    
+div.marketChart .infoPanel
+{
+    color: #666;
+    line-height: 18px;
+    font-size:11px;
+    border-bottom: 1px solid #D3D3D3;
+    padding-left:8px;
+    padding-right:8px;
+    position:relative;
+}
+    
+div.marketChart .infoPanel span.time
+{
+    display:block;
+    float:right;
+}
+    
+.highcharts-axis
+{
+    font-family:Arial;
+    letter-spacing: -1px;
+}
+    
+/* Market Map */
+
+#globalMarketMap {
+    background: url("../../images/market_map_bg.png") no-repeat scroll 0 0 transparent;
+    font-size: 11px;
+    height: 240px;
+    margin-bottom: 20px;
+    position: relative;
+	clear: left;
+}
+
+#globalMarketMap span {
+    display: block;
+    height: 25px;
+    position: absolute;
+    width: 145px;
+}
+
+#globalMarketMap .marketName {
+    font-weight: bold;
+    padding: 6px 0 0 16px;
+	float: left;
+}
+
+#globalMarketMap .marketValue {
+    margin-right: 5px;
+    padding: 6px 12px 0 0;
+	float: right;
+}
+
+#globalMarketMap .gain {
+    background: url("../../images/gainLossSprite.gif") no-repeat scroll right -17px transparent;
+    color: #639B07;
+}
+
+#globalMarketMap .loss {
+    background: url("../../images/gainLossSprite.gif") no-repeat scroll right 11px transparent;
+	color: red;
+}
+
+#globalMarketMap .marketOpen {
+    background: url("../../images/blue_dot.png") no-repeat scroll 5px 8px transparent;
+}
+
+#globalMarketMap .marketClosed {
+    background: url("../../images/grey_dot.png") no-repeat scroll 5px 8px transparent;
+}
+
+#globalMarketMap .nasdaq {
+   	left: 20px;
+    top: 123px;
+	width: 137px;
+}
+
+#globalMarketMap .djia {
+    left: 20px;
+    top: 157px;
+    width: 137px;
+}
+
+#globalMarketMap .snp {
+	left: 20px;
+    top: 193px;
+	width: 137px;
+}
+
+#globalMarketMap .ftse {
+ 	left: 280px;
+    top: 34px;
+    width: 138px;
+}
+#globalMarketMap .dax {
+    left: 280px;
+    top: 72px;
+	width: 138px;
+}
+#globalMarketMap .cac {
+   	left: 20px;
+    top: 19px;
+	width: 137px;
+}
+#globalMarketMap .ibex {
+    left: 249px;
+    top: 185px;
+}
+#globalMarketMap .nikkei {
+    left: 494px;
+    top: 74px;
+}
+#globalMarketMap .topix {
+    left: 494px;
+    top: 36px;
+}
+#globalMarketMap .shanghai {
+    left: 494px;
+    top: 108px;
+}
+#globalMarketMap .hangseng {
+    left: 494px;
+    top: 143px;
+}
+#globalMarketMap .sensex {
+    left: 494px;
+    top: 178px;
+}
+#globalMarketMap .asx {
+    left: 280px;
+    top: 177px;
+	width: 138px;
+}
+
+
+#globalMarketMap .basicData {
+    left: 507px;
+    line-height: 18px;
+    position: absolute;
+    top: 15px;
+    width: 178px;
+}
+#globalMarketMap .legend {
+    bottom: 13px;
+    left: 284px;
+    position: absolute;
+}
+
+#globalMarketMap .legend div {
+	padding-right: 25px;
+	position: relative;
+	float: left;
+}
+
+#globalMarketMap .legend p {
+	margin-bottom: 0px;	
+}
+
+#globalMarketMap .source {
+	position: absolute;
+	left: 20px;
+	bottom: 2px;
+}
+
+#globalMarketMap .basicData .lastUpdated {
+	display: inline;
+}
+
+#globalMarketMap a.reloadChart {
+	display: block;
+	/*width: 43px;*/
+	color: #242424;
+	/*padding-right: 325px;*/
+    left:580px;
+	position: absolute;
+	right: 10px;
+	bottom: 5px;
+}	
+#globalMarketMap a.reloadChart:hover {
+	text-decoration: none;
+}

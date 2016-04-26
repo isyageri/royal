@@ -1,0 +1,211 @@
+table#vsTable_82707
+{
+	border: none;
+	border-bottom: 2px solid #6D929B;
+	border-collapse: collapse;
+	border-right: 1px solid #C1DAD6;
+	font-size: 12px;
+	margin: 0 auto;
+	position: relative;
+	width: 100%;
+	z-index: 2;
+}
+table#vsTable_82707 td
+{
+	background: #F5FAFA;
+	border-bottom: 1px solid #C1DAD6;
+	border-left: 1px solid #C1DAD6;
+	color: #707070;
+	padding: 10px 0;
+	text-align: center;
+	vertical-align: middle;
+}
+table#vsTable_82707 tr td div
+{
+	text-align: center;
+}
+table#vsTable_82707 tr td div.yes,table#vsTable_82707 tr td div.no,table#vsTable_82707 tr td div.partial
+{
+	height: 16px;
+}
+table#vsTable_82707 tr td.cat div,table#vsTable_82707 tr td.title div
+{
+	height: auto;
+}
+table#vsTable_82707 td.cat div
+{
+	padding: 0 10px;
+	text-align: left;
+}
+table#vsTable_82707 td.title
+{
+	background: #CDEDEE;
+	border-left: 1px solid #C1DAD6;
+	border-top: 1px solid #C1DAD6;
+	color: #007FFF;
+	font-size: 14px;
+	text-align: center;
+	vertical-align: middle;
+}
+table
+												#vsTable_82707 .cat
+{
+	background: #F4FCFC;
+	border-left: 1px solid #C1DAD6;
+	color: #6D929B;
+	text-align: left;
+}
+table#vsTable_82707 td.title.cat
+{
+	background: none !important;
+	border: none;
+	border-bottom: 1px solid #C1DAD6;
+	cursor: default !important;
+}
+table#vsTable_82707 td.title.cat div
+{
+	display: none;
+}
+table#vsTable_82707 tr td.cat:hover
+{
+	background: #fff;
+}
+table#vsTable_82707 tr td.title:hover
+{
+	background: #F5FAFA;
+}
+table#vsTable_82707 tr td:hover
+{
+	background: #fff;
+}
+table#vsTable_82707 td a
+{
+	color: #6D929B;
+	text-decoration: none;
+}
+table#vsTable_82707 td a:hover
+{
+	text-decoration: underline;
+}
+table#vsTable_82707 a.tableButton
+{
+	background: #c7c7c7;
+	background: linear-gradient(top,#e7e7e7 0%,#c7c7c7 100%);
+	background: -moz-linear-gradient(top,#e7e7e7 0%,#c7c7c7 100%);
+	background: -ms-linear-gradient(top,#e7e7e7 0%,#c7c7c7 100%);
+	background: -o-linear-gradient(top,#e7e7e7 0%,#c7c7c7 100%);
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#e7e7e7),color-stop(100%,#c7c7c7));
+	background: -webkit-linear-gradient(top,#e7e7e7 0%,#c7c7c7 100%);
+	border: 1px solid #d7d7d7;
+	border-radius: 5px;
+	box-shadow: inset 0 1px 0 #fff;
+	color: #666;
+	display: inline-block;
+	font-size: 14px;
+	padding: 7px 10px;
+	text-decoration: none !important;
+	text-shadow: 1px 1px 0 #fff;
+}
+table#vsTable_82707 a.tableButton.big
+{
+	font-size: 20px;
+	padding: 10px 15px;
+}
+table#vsTable_82707 a.tableButton.small
+{
+	font-size: 12px;
+	padding: 5px 7px;
+}
+table#vsTable_82707 a.tableButton:hover
+{
+	background: #e7e7e7;
+	background: -moz-linear-gradient(top,#c7c7c7 0%,#e7e7e7 100%);
+	background: -ms-linear-gradient(top,#c7c7c7 0%,#e7e7e7 100%);
+	background: -o-linear-gradient(top,#c7c7c7 0%,#e7e7e7 100%);
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#c7c7c7),color-stop(100%,#e7e7e7));
+	background: -webkit-linear-gradient(top,#c7c7c7 0%,#e7e7e7 100%);
+	height: 21px;
+	margin: 0 auto;
+	width: 110px;
+}
+table#vsTable_82707 .rating div.rate2
+{
+	background-position: center -23px;
+}
+table#vsTable_82707 .rating div.rate3
+{
+	background-position: center -46px;
+}
+table#vsTable_82707 .rating div.rate4
+{
+	background-position: center -69px;
+}
+table#vsTable_82707 .rating div.rate5
+{
+	background-position: center -92px;
+}
+table#vsTable_82707 .rating div.rate6
+{
+	background-position: center -115px;
+}
+table#vsTable_82707 .titleImage
+{
+	border: none;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+table#vsTable_82707 .title .editable input,table#vsTable_82707 .cat .editable input
+{
+	color: #6D929B;
+}
+#tableWrapper
+{
+	position: relative;
+}
+table#vsTable_82707 #vsTable_82707Title
+{
+	margin: 0;
+	padding: 0 10px;
+	text-shadow: 1px 1px 0 rgba(255,255,255,0.15);
+}
+table#vsTable_82707 td.text .big
+{
+	font-size: 32px;
+}
+table#vsTable_82707 td.text .medium
+{
+	font-size: 18px;
+}
+table#vsTable_82707 td p
+{
+	line-height: 1.7em;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+table#vsTable_82707 td.title > div
+{
+	position: relative;
+}
+table#vsTable_82707 tr td > div
+{
+	box-sizing: border-box;
+	line-height: 1.7em;
+	moz-box-sizing: border-box;
+	ms-box-sizing: border-box;
+	padding: 0 10px;
+	webkit-box-sizing: border-box;
+}
+table#vsTable_82707 td.image div.image img
+{
+	display: block;
+	margin: 0 auto 5px;
+	max-width: 90%;
+}
+table#vsTable_82707 td.image div.image span
+{
+	display: block;
+	line-height: 20px;
+	padding: 0 5px;
+}

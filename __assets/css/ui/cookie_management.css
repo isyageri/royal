@@ -1,0 +1,163 @@
+.postit{
+	position: absolute;
+	left: -9999px;
+}
+
+#TB_window #editCookiePermissionsContent .tr{
+	margin: 0 -9px 0 0;
+	background-image:url(/images/tools-functional-btn-corners.gif);
+	background-position: -27px 0;
+}
+#TB_window #editCookiePermissionsContent .br{
+	margin: 0 -9px 0 0;
+	background-image:url(/images/tools-functional-btn-corners.gif);
+	background-position: -18px 0;
+}
+#TB_window #editCookiePermissionsContent .btn em {
+	position: absolute;
+	height: 10px;
+}	
+
+#TB_ajaxContent #editCookiePermissionsContent h3{
+	display: block;
+	margin: 0.2em 10px 0.1em 10px;
+	padding: 0 0 0.3em 0;
+	width: 735px;
+	border-bottom: 1px dotted #ccc;
+}
+#TB_ajaxContent #editCookiePermissionsContent p{
+	padding: 0 0 1em 0;
+	font-size: 1em;
+}
+#editCookiePermissions {
+	display: none;
+}
+#editCookiePermissionsContent {
+	float: left;
+	padding: 0 0 0 5px;
+	color: #142f5a;
+}
+#cookiePermissionsForm {
+	padding: 0 5px 0 0;
+}
+#cookiePermissionsForm fieldset#cookieChecks {
+	float: left;
+	width: 185px;
+	border: none;
+}
+#TB_ajaxContent #cookiePermissionsForm fieldset#cookieChecks h4{
+	padding: 5px 10px 1.7em 10px;
+	font-size: 1em;
+}
+#TB_ajaxContent #cookiePermissionsForm fieldset#cookieChecks p{
+	padding: 0 10px 0.5em 10px;
+	font-size: 1em;
+}
+#TB_ajaxContent #cookiePermissionsForm fieldset#cookieChecks p.strictlyNecessary{
+	padding: 0 10px 0.5em 30px;
+	background: url(/images/checkbox-tick.png) no-repeat 10px 2px;
+}
+#cookiePermissionsForm fieldset.cookieActions {
+	float: left;
+	clear: both;
+	margin-top: 15px;
+	width: 100%;
+	border: none;
+	border-top: 1px dotted #ccc;
+}
+#cookiePermissionsForm fieldset.cookieActions .popup{
+	float: left;
+	margin: 3px 0 0 15px;
+}
+#cookiePermissionsForm fieldset.cookieActions a.saveCookies {
+	color: #fff;
+	text-decoration: none;
+}
+#TB_window .btn.fr{
+	float: right;
+	margin-right: 10px;
+}
+#TB_window .btn a.functional{
+	color: #fff;
+}
+#cookiePermissionsForm fieldset .cookieCheck {
+	float: left;
+	padding: 0 0 10px 0;
+	width: 100%;
+}
+#cookiePermissionsForm input {
+	float: left;
+	margin: 0 8px 0 8px;
+	width: 15px;
+}
+#cookiePermissionsForm label {
+	float: left;
+	width: 140px;
+}
+
+p.otm{
+	display: none;
+	margin: 10px 10px 2px 10px;
+	padding: 5px 5px 5px 50px;
+	color: #003366;
+	font-size: 0.8em;
+	background-color: #e8f5f9;
+	background-image:url(/images/icon-alert.png);
+	background-repeat: no-repeat;
+	background-position: 10px center;
+}
+#editCookiePermissionsTrigger{
+	display: none;
+}
+
+#cookieCategoryInfo {
+	float: left;
+	width: 550px;
+}
+#TB_ajaxContent table#cookieInfoTable{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	border: 1px solid #ccc;
+}
+#TB_ajaxContent table#cookieInfoTable tr.odd{
+	background: #e8f5f9;
+}
+#TB_ajaxContent table#cookieInfoTable th{
+	padding: 10px;
+	text-align: center;
+	width: 50%;
+	background: #ABDEF4 url(/images/gradient-bg-pale-blue.png) top left repeat-x;
+}
+#TB_ajaxContent table#cookieInfoTable td{
+	padding: 10px 10px 10px 40px;
+	vertical-align: top;
+}
+#TB_ajaxContent table#cookieInfoTable th.first,
+#TB_ajaxContent table#cookieInfoTable td.first{
+	border-right: 1px dotted #ccc;
+}
+#TB_ajaxContent table#cookieInfoTable td.ticked{
+	background-image: url(/images/table-tick.png);
+	background-repeat: no-repeat;
+	background-position: 10px 11px;
+}
+#TB_ajaxContent table#cookieInfoTable td.crossed{
+	background-image: url(/images/table-cross.png);
+	background-repeat: no-repeat;
+	background-position: 10px 11px;
+}
+
+
+.cont-ecn{width:760px;margin:0 0 15px 0;overflow:hidden}
+.cookieActions .functional em{background-image:url(/images/tools-functional-btn-corners.gif);background-repeat:no-repeat;}
+
+#editCookiePermissionsContent .cont-ecn{width:740px;}
+
+#TB_ajaxContent #editCookiePermissionsContent h3{
+	width:auto;
+}
+
+#TB_ajaxContent #editCookiePermissionsContent .mod .m-cont{
+	padding: 10px 4px 0 15px;
+}

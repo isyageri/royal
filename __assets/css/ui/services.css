@@ -1,0 +1,576 @@
+/*columns*/
+div.columns {
+	font-family:'expertsans-light',Verdana,Geneva,sans-serif !important;
+	font-size:1.2em;
+	float:left;
+	margin:10px 0 10px 15px;
+}
+div.columns h2 {
+	font-size:180%;
+	font-weight:normal;
+	line-height:1.2;
+	margin:0 0 -5px;
+	padding-bottom:0.65em;
+}
+div.columns h3 {
+	font-size:180%;
+	font-weight:normal;
+	line-height:1.1;
+	margin:0 0 -5px;
+	padding-bottom:0.65em;
+}
+div.columns ul {
+	margin:10px 0 0 30px;
+	font-size:93%;
+}
+div.columns img {
+	margin-right:10px;
+}
+div.columns p {
+	padding-bottom:0.65em;
+	font-size:93%;
+}
+div.columns .footnote{
+	font-size:71%;
+	margin:10px 0;
+}
+div.columns .btn {
+	position:relative !important;
+	float:right;
+	margin:15px 0;
+	right:0 !important;
+	bottom:0 !important;
+	font-size:0.85em;
+	font-family:verdana !important;
+	clear:both;
+}
+div.column {
+	overflow:hidden;
+}
+
+/*start footer boxes*/
+#bottomBoxesInfoServicesWrapper {
+	position:relative;
+	width:917px;
+	height:160px;
+	padding:0;
+	margin:0 30px;
+}
+.bottomBoxesInfoServicesBorderTop {
+	background:url('images/services-bordertop.gif') no-repeat top left;
+	height:11px;
+	width:888px;
+	clear:both;
+	margin:0 30px;
+}
+.bottomBoxesInfoServicesBorderBottom {
+	background:url('images/services-borderbottom.gif') no-repeat top left;
+	height:44px;
+	width:888px;
+	clear:both;
+	margin:0 30px;
+	*margin-top:60px;
+}
+#bottomBoxesInfoServicesWrapper .bottomBoxInfoServices {
+	margin-top:10px;
+	border-right:1px solid #CCC;
+	float:left;
+	padding:10px 20px 35px 20px;
+	width:25%;
+	min-height:160px;
+	overflow:hidden;
+	position:relative;
+	display:table-cell;
+}
+.bottomBoxInfoServices h2 {
+	font-size:108%;
+	font-weight:bold;
+	padding:0 0 0.65em 0;
+	line-height:1.4;
+}
+.bottomBoxInfoServices div.btn {
+	bottom:10px;
+	right:20px;
+	position:absolute;
+}
+.bottomBoxInfoServices ul, .bottomBoxInfoServices ol {
+	margin-left:30px;
+	padding-bottom:0;
+}
+.bottomBoxInfoServices ul li, .bottomBoxInfoServices ol li {
+	padding-bottom:5px;
+}
+.bottomBoxInfoServices p {
+	padding-bottom:5px;
+}
+.bottomBoxInfoServices ul.tick-list {
+    display:block;
+    margin:0;
+    padding:0;
+    width:auto;
+}
+.bottomBoxInfoServices .m-cont ul.tick-list li{
+    background:url('images/arrow-white-sprite.gif') no-repeat scroll -172px -764px transparent;
+    padding:0 0 0 32px;
+    margin-top:5px;
+    display:block;
+    list-style-type:none;
+}
+/*tabs*/
+#tabsInfoServices {
+	margin:0;
+	padding:0;
+	position:relative;
+	clear:both;
+	width:917px;
+	padding:10px 4px 0 15px;
+}
+#tabsInfoServicesList {
+	background-image: url('images/services-tabsbg.gif');
+	height:50px;
+	margin:0;
+	padding:0;
+	width:100%;
+	overflow:hidden;
+	display:none;
+}
+.hasJS #tabsInfoServicesList {
+    display:block;
+}
+#tabsInfoServicesList li {
+	float:left;
+	height:50px;
+	list-style-type:none;
+	padding:0;
+}
+#tabsInfoServicesList li a {
+	font-family:'expertsans-light',Verdana,Geneva,sans-serif;
+	border-right:1px solid #CCCCCC;
+	display:block;
+	font-size:1.2em;
+	height:36px;
+	line-height:36px;
+	outline:0 none;
+	padding:2px 15px;
+	text-align:center;
+	text-decoration:none;
+	vertical-align:middle;
+}
+#tabsInfoServicesList li a.active {
+	position:relative;
+	background:url('images/services-activetab.gif') no-repeat center;
+	border-right:medium none;
+	color:#FFF;
+	height:48px;
+	z-index:1000;
+}
+.tabInfoServicesPanel {
+	clear:both;
+	margin:20px 0;
+}
+.tabInfoServicesPanel .m-cont p {
+	font-size:93%;
+    clear:both;
+    display:block;
+    margin:0;
+    padding: 5px 0;
+}
+.tabInfoServicesPanel .m-cont ul, .tabInfoServicesPanel .m-cont ol {
+	margin:0 0 15px 32px;
+}
+.tabInfoServicesPanel .m-cont ul li, .tabInfoServicesPanel .m-cont ol li {
+	margin-top:5px;
+}
+.tabInfoServicesPanel .m-cont ul.tick-list {
+    display:block;
+    margin:0;
+    padding:0;
+    width:auto;
+}
+.tabInfoServicesPanel .m-cont ul.tick-list li{
+    background:url('arrow-white-sprite.gif') no-repeat scroll -172px -764px transparent;
+    padding:0 0 0 32px;
+    margin-top:5px;
+    display:block;
+    list-style-type:none;
+}
+/*carousel*/
+.carouselSliderContent {
+	width:inherit;
+	height:inherit;
+	position:relative;
+	overflow:hidden;
+	z-index:1000;
+}
+.carouselSlider {
+	min-height:60px;
+	width:100%;
+	overflow:auto;
+}	
+.carouselSlide {
+	position:absolute;
+	top:0;
+	left:0;
+	display:none;
+	margin:0 65px;
+}
+.carouselSlide:first-child {
+	display:block;
+}
+.arrow {
+	width:50px;
+	height:50px;
+	position:absolute;
+	top:0;
+	cursor:pointer;
+	display:none;
+}
+.left.arrow {
+	left:0;
+	background:url('images/carousel-leftlgarrow.gif') no-repeat 0 0;
+}
+.right.arrow {
+	right:10px;
+	background:url('images/carousel-rightlgarrow.gif') no-repeat 0 0;
+}
+.arrow:hover {
+	background-position:0 -50px;	
+}
+.controls {
+	width:inherit;
+	text-align:center;
+	padding-bottom:15px;
+	background:#fff;
+	position:relative;
+	z-index:1001;
+}
+.smallArrow {
+	width:8px;
+	height:13px;
+	*display:inline;
+	zoom:1;
+	cursor:pointer;
+	vertical-align:middle;
+	display:none;
+}
+.left.smallArrow {
+	background:url('images/carousel-leftsmarrow.gif') no-repeat 0 0;
+}
+.right.smallArrow {
+	background:url('images/carousel-rightsmarrow.gif') no-repeat 0 0;
+}
+.buttonsContainer {
+	display:inline-block;
+	*display:inline;
+	zoom:1;
+	min-width:20px;
+	min-height:13px;
+}
+.selectButton {
+	cursor:pointer;
+	width:17px;
+	height:17px;
+	display:inline-block;
+    *display:inline;
+	zoom:1;
+	vertical-align:middle;
+	background:url('images/carousel-dots.gif') no-repeat 0 0;
+	margin:0 2px;
+}
+.selectButton.selected {
+	background-position:0 -17px;
+}
+
+    /* ============= Hero banner */
+#topBoxInfoServicesBg {
+    height: 100%;
+}
+/* ============= Classes for JS */
+.repExample {
+    font-size: .85em;
+}
+/* ============= Headings */
+h1 {
+    color: #00a1ea;
+}
+h2.customHubH2 {
+    font-family: 'expertsans-light' !important;
+    font-size: 1.8em !important;
+    font-weight: normal !important;
+    color: #003366 !important;
+    line-height: 26px;
+    margin: 0;
+    padding: 0;
+}
+#crossSell > h2.customHubH2 {
+    padding-bottom: 10px;
+}
+#switchBox > h2.customHubH2, #existBox > h2.customHubH2, #notForSale > h2.customHubH2 {
+    padding-bottom: 15px;
+}
+#bottomBoxesInfoServicesWrapper > div > h2 {
+    font-family: 'expertsans-light' !important;
+    font-size: 1.8em !important;
+    font-weight: normal !important;
+    color: #003366 !important;
+    line-height: 26px;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 15px !important;
+}
+h3 {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+/* ============= Main banner */
+#topBoxInfoServicesBg > div > div.topBoxInfoServicesMiddle p {
+    float: left;
+}
+#topBoxInfoServicesBg > div > div.topBoxInfoServicesMiddle img {
+    padding-top: 10px;
+}
+/* ============= What we offer */
+#whatWeOfferyou {
+    width: 100%;
+    float: left;
+    clear: both;
+    margin: 0 0 20px;
+    padding: 0 0 10px 0;
+}
+/* ============= Bank accounts */
+#bankAccounts {
+    width: 100%;
+    float: left;
+    clear: both;
+    margin: 0 0 20px;
+    padding: 0;
+}
+div.bankAccountsBox {
+    width: 875px;
+    padding: 15px 0 10px 0;
+    margin-right: 10px;
+    border-bottom: 1px dotted #ccc;
+    float: left;
+    position: relative;
+}
+div.bankAccountsBox img{
+    margin-right: 15px;
+    float: left;
+}
+/* ============= Cross sell */
+#crossSell {
+    width: 100%;
+    float: left;
+    clear: both;
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 0 20px 0;
+    border-bottom: 1px dotted #CCCCCC;
+}
+div#tabsInfoServices div#tabInfoServicesPanel1.tabInfoServicesPanel div.imageless div.m-cont div#crossSell,
+div#tabsInfoServices div#tabInfoServicesPanel2.tabInfoServicesPanel div.imageless div.m-cont div#crossSell,
+div#tabsInfoServices div#tabInfoServicesPanel3.tabInfoServicesPanel div.imageless div.m-cont div#crossSell {
+    border-bottom: none;
+}
+div.crossSellBox {
+    display: block;
+    width: 280px;
+    float: left;
+    padding-top: 10px;
+}
+div.crossSellBox.middleBox {
+    padding: 10px 10px 0 10px;
+    margin: 0 10px;
+    border-right: 1px dotted #ccc;
+    border-left: 1px dotted #ccc;
+}
+div.crossSellBox img{
+    margin: 0 10px 25px 0;
+    float: left;
+}
+/* ============= Switch Existing */
+#switchExist {
+    width: 100%;
+    float: left;
+    clear: both;
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 0 20px 0;
+    border-bottom: 1px dotted #CCCCCC;
+}
+#switchExist img{
+    margin: 15px 10px 0 0;
+    float: left;
+}
+#switchExist p {
+    font-size: 13px;
+}
+#switchExist ul, div.bankAccountsBox ul, div.notForSaleBox ul {
+    font-size: 13px;
+    padding: 10px;
+}
+#switchExist ul {
+    font-size: 13px;
+    margin-left: 165px;
+}
+#switchBox, #existBox {
+    width: 420px;
+    border: 0px solid #ccc;
+}
+#switchBox {
+    float: left;
+    position: relative;
+    border-right: 1px dotted #ccc;
+    padding-right: 38px;
+}
+#existBox {
+    float: right;
+    position: relative;
+}
+/* ============= Not for sale */
+#notForSaleOuter {
+    width: 100%;
+    margin: 0;
+    padding: 10px 0;
+    float: left;
+    clear: both;
+    display: block;
+}
+#notForSaleInner {
+    position: relative;
+    margin: 0;
+    width: 917px;
+}
+div.notForSaleBox {
+    width: 270px;
+    margin: 0 10px 20px 0;
+    border: 0px solid #ccc;
+    float: left;
+}
+div.notForSaleBox ol {
+    font-size: 13px;
+    padding: 10px;
+}
+div.notForSaleBox ol li {
+    background: transparent url(arrow-white-sprite.gif) no-repeat -172px -764px;
+    padding: 0 0 0 30px;
+    margin-top: 5px;
+    display: block;
+    font-size: 13px;
+}
+/* ============= Contact us */
+#contactUsContainer {
+    position: relative;
+    margin: 15px 0;
+    width: 917px;
+}
+div.contactUsBox {
+    width: 280px;
+    padding: 0;
+    float: left;
+}
+div.contactUsBox img {
+    margin: 0 10px 0 0;
+    float: left;
+}
+div.contactUsBox p {
+    margin: 0 0 0 60px;
+}
+div.webChat {
+    padding-right: 10px;
+    border-right: 1px dotted #ccc;
+}
+div.branch {
+    padding: 0 10px 0 10px;
+}
+div.callUs {
+    padding-left: 10px;
+    border-left: 1px dotted #ccc;
+}
+/* ============= All lists */
+div.bankAccountsBox ul {
+    margin-left: 315px;
+}
+#switchExist ul li, div.bankAccountsBox ul li, div.notForSaleBox ul li {
+    background: transparent url(arrow-white-sprite.gif) no-repeat -172px -764px;
+    padding: 0 0 0 30px;
+    margin-top: 5px;
+    display: block;
+    font-size: 13px;
+}
+/* ============= Change layout of embedded Web Chat capsule */
+#webchatContainer #chatImg {
+    position: relative;
+    top: -45px;
+}
+#webchatContainer h3 {
+    margin-left: 60px;
+}
+#webchatContainer #chatStatusText > p {
+    margin: 0 0 0 5px;
+}
+/* ============= Fatwire hacks */
+#topBoxInfoServicesWrapper {
+    width: 917px !important;
+    height: 250px !important;
+}
+#tabsInfoServices {
+    padding-top: 15px !important;
+}
+#tabsInfoServicesList li a.active {
+    height: 48px !important;
+}
+div.tabInfoServicesPanel .btn {
+    font-size: 1em;
+    margin: 0;
+    padding: 10px 0 0 0;
+    clear: right;
+}
+div.tabInfoServicesPanel .btn.fr.applyLbxBtn {
+    margin: 0;
+    padding: 0;
+    clear: right;
+}
+div.tabInfoServicesPanel .btn.fr.applyLbxBtn span {
+    padding: 5px 0 0 0;
+}
+#bottomBoxesInfoServicesWrapper {
+    margin: 0 0 0 15px !important;
+}
+#bottomBoxesInfoServicesWrapper div.bottomBoxInfoServices {
+    width: 917px !important;
+}
+#bottomBoxesInfoServicesWrapper .bottomBoxInfoServices {
+    padding-left: 0 !important;
+}
+#importantInfo > div {
+    width: 98%;
+}
+/*Fixes after template release on 15 April*/
+#topBoxInfoServicesCell > div > div.topBoxInfoServicesMiddle {
+    padding: 20px 29px 10px 29px;
+}
+#topBoxInfoServicesCell > div > div.topBoxInfoServicesMiddle > p.bannerText {
+    padding-bottom: 25px;
+}
+.topBoxInfoServices .topBoxInfoServicesMiddle p {
+    float: left;
+}
+div.tabInfoServicesPanel .btn.fr.applyLbxBtn {
+    padding-top: 10px;
+}
+.tabInfoServicesPanel .m-cont p {
+    clear:none !important;
+}
+.m-cont .bankAccountsBox li {
+    margin-left:320px !important;
+}
+h2.customHubH2 {
+    font-family: 'expertsans-light' !important;
+    font-size: 1.8em !important;
+    font-weight: normal !important;
+    color: #003366 !important;
+    line-height: 26px;
+    margin: 0;
+    padding: 0;
+}

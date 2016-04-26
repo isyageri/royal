@@ -1,0 +1,116 @@
+body{background:#fff url(../images/eagleOpt.jpg) repeat left top;font-family:Verdana,Arial,Helvetica,sans-serif;margin:0;padding:0;position:relative;/* relative for tooltip position */}
+.page{margin:5px auto 10px auto;width:982px;}
+.page .header{background:url(../images/body-head.png) no-repeat left top;overflow:hidden;padding:0 11px;width:960px;display:block;position:relative;}
+.page .body{background:url(../images/body-main.png) repeat-y left top;clear:both;float:left;margin-bottom:0;padding:8px 11px 0 18px;width:960px;}
+.page .main-footer{background:url(../images/body-head.png) repeat-y left bottom;clear:both;float:left;height:25px;margin-bottom:1em;width:982px;}
+.page .body .content{float:left;}
+.page .sidebar{float:left;width:310px;background-color:#fff;margin-top:5px;}
+.section{clear:both;float:left;padding-bottom:10px;}
+.content .section{float:none;overflow:hidden;}
+.module{background:transparent url(../images/module-1.png) no-repeat scroll left bottom;float:left;margin-right:13px;}
+.module.full{margin-bottom:20px;padding-bottom:0;width:946px;}
+.module .lt{background:transparent url(../images/module-1.png) no-repeat scroll left top;height:100%;overflow:hidden;width:100%;}
+.module .rb{background:transparent url(../images/module-1.png) no-repeat scroll right bottom;float:right;height:20px;width:50px;}
+.content .column{float:left;}
+.content .column .mod{display:inline;}
+#bSocialWidget{position:fixed;right:0;top:25%;background: url(../images/socialBackground.png);padding:12px 0 0 11px;z-index:10000;display:none;}
+#bSocialWidget a{float:left;clear:both;margin-bottom:6px;}
+#bSocialWidget .widgetBottom{background:url(../images/widgetBottom.png);width:47px;height:15px;position:absolute;bottom:-15px;left:0;}
+div.columns {
+	float:left;
+	margin:0 0 0 15px;
+}
+div.column {
+	overflow:hidden;
+}
+div.accordionTitle {
+	font-family:'expertsans-light',Verdana,Geneva,sans-serif;
+	color:#007EB6;
+	cursor:pointer;
+	font-size:180%;
+	font-weight:normal;
+	line-height:1.1;
+	margin:0 10px 10px 25px;
+	padding-left:30px;
+}
+div.accordionTitle.accordionclosedarrow {background:url('/images/accordionclosedarrow.png') no-repeat 0 3px;}
+div.accordionTitle.accordionopenarrow {background:url('/images/accordionopenarrow.png') no-repeat 0 3px;}
+div.accordionText {
+    margin:0 10px 0 56px;
+	padding-bottom:30px;
+	font-size:93%;
+}
+
+/*banner*/
+#topBoxInfoServicesWrapper {
+    position:relative;
+    width:918px;
+    display:table;
+    margin: 10px 4px 10px 15px;
+}
+#topBoxInfoServicesCell {
+    display: table-cell;
+    vertical-align: middle;
+}
+.topBoxInfoServices {
+    z-index:1;
+    font-family:'expertsans-light',Verdana,Geneva,sans-serif;
+    color:#036;
+    float:right;
+    margin:46px 46px 0 0;
+}
+.topBoxInfoServicesLeft {
+    float:left;
+    margin:0 0 0 46px;
+}
+.topBoxInfoServicesRight {
+    float:right;
+    margin:0 46px 0 0;
+}
+.topBoxInfoServices .topBoxInfoServicesTop {
+    background:url('/images/services-banner-contentbg.gif') no-repeat top left;
+    height:11px;
+    width:407px;
+}
+.topBoxInfoServices .topBoxInfoServicesMiddle {
+    background:url('/images/services-banner-contentbgmid.gif') repeat-y top left;
+    width:349px;
+    padding:20px 29px;
+    font-size:1.2em;
+    overflow:hidden;
+}
+.topBoxInfoServices .topBoxInfoServicesMiddle h1, .topBoxInfoServices .topBoxInfoServicesMiddle h2 {
+    color:#00A1EA;
+    font-size:180%;
+    font-weight:normal;
+    padding-bottom:5px;
+}
+.topBoxInfoServices .topBoxInfoServicesMiddle ul {
+    color:#003366;
+    margin-left:20px;
+}
+.topBoxInfoServices .topBoxInfoServicesMiddle p {
+    padding-bottom:7px;
+    font-size:93%;
+}
+.topBoxInfoServices .topBoxInfoServicesMiddle p a {
+    text-decoration:none;
+}
+.topBoxInfoServices .topBoxInfoServicesMiddle a {
+    text-decoration:none;
+    font-size:93%;
+}
+.topBoxInfoServices .topBoxInfoServicesMiddle .btn {
+    position:relative;
+    float:right;
+    margin-top:15px;
+    right:0;
+    bottom:0;
+    font-size:0.85em;
+    font-family:verdana !important;
+}
+.topBoxInfoServices .topBoxInfoServicesBottom {
+    background: url('/images/services-banner-contentbg.gif') no-repeat bottom left;
+    height:11px;
+    width:407px;
+}
