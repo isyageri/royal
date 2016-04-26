@@ -1,0 +1,1 @@
+<a href="#t{$menu}" class="easyui-linkbutton" onclick="f_search({$menu})" plain="true" iconCls="icon-search">Search</a>
